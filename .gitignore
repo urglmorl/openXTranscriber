@@ -1,0 +1,30 @@
+docs/
+
+# macOS
+.DS_Store
+
+# Xcode / SwiftPM
+DerivedData/
+.build/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Build outputs
+build/
+*.app
+*.dSYM
+*.dSYM.zip
+
+# Python (for helper scripts / local envs)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+pip-wheel-metadata/
+
+# Logs / temp
+*.log
+tmp/
