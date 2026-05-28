@@ -1,0 +1,2453 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "— helps Whisper with names and jargon" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "— помогает Whisper'у с именами и терминами"
+          }
+        }
+      }
+    },
+    "— select —" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "— выбрать —"
+          }
+        }
+      }
+    },
+    "\"%@\" saved. Run transcription with speaker diarization?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» сохранено. Запустить транскрипцию с диаризацией спикеров?"
+          }
+        }
+      }
+    },
+    "/opt/homebrew/bin/python3" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "/opt/homebrew/bin/python3"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld blocks" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "блоков: %lld"
+          }
+        }
+      }
+    },
+    "%lld of %lld accepted" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Принято: %lld из %lld"
+          }
+        }
+      }
+    },
+    "%lld sample(s) • updated %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Образцов: %lld • обновлён %@"
+          }
+        }
+      }
+    },
+    "%lld speaker(s) need a name" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без имени спикеров: %lld"
+          }
+        }
+      }
+    },
+    "•" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "•"
+          }
+        }
+      }
+    },
+    "● Recording %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "● Идёт запись %@"
+          }
+        }
+      }
+    },
+    "A one-time setup to enable speaker diarization." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Один раз настройте, чтобы включить диаризацию спикеров."
+          }
+        }
+      }
+    },
+    "Above auto-label threshold the speaker is renamed silently. Between thresholds it is shown for confirmation. Below it stays as SPEAKER_XX." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выше порога авто-подписи спикер переименовывается без подтверждения. Между порогами — показывается на подтверждение. Ниже — остаётся как SPEAKER_XX."
+          }
+        }
+      }
+    },
+    "Accept model agreements" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примите соглашения моделей"
+          }
+        }
+      }
+    },
+    "Access granted" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ есть"
+          }
+        }
+      }
+    },
+    "Add access token" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавьте access token"
+          }
+        }
+      }
+    },
+    "Add to library" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить в библиотеку"
+          }
+        }
+      }
+    },
+    "Add your access token first — we use it to check which agreements are already accepted." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала добавьте access token — без него не проверить, какие соглашения уже приняты."
+          }
+        }
+      }
+    },
+    "Agreement not accepted yet" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Соглашение пока не принято"
+          }
+        }
+      }
+    },
+    "All accepted" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все приняты"
+          }
+        }
+      }
+    },
+    "Allow Screen Recording" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешить запись экрана"
+          }
+        }
+      }
+    },
+    "Audio Extraction" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Извлечение аудио"
+          }
+        }
+      }
+    },
+    "Auto-include voice library names in prompt" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подставлять имена из библиотеки голосов в промпт"
+          }
+        }
+      }
+    },
+    "Auto-label threshold" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порог авто-подписи"
+          }
+        }
+      }
+    },
+    "Auto-labeled — %@ of speech" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоопознан — %@ речи"
+          }
+        }
+      }
+    },
+    "Auto-labeled %lld speaker(s) from voice library." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматически опознано спикеров из библиотеки: %lld."
+          }
+        }
+      }
+    },
+    "Available: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно: %@"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        }
+      }
+    },
+    "Cancel (discard)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отменить (отбросить)"
+          }
+        }
+      }
+    },
+    "Change Output Folder…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сменить папку для записей…"
+          }
+        }
+      }
+    },
+    "Check Runtime" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить runtime"
+          }
+        }
+      }
+    },
+    "Checking" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка"
+          }
+        }
+      }
+    },
+    "Checking runtime..." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка runtime..."
+          }
+        }
+      }
+    },
+    "Checking…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверяем…"
+          }
+        }
+      }
+    },
+    "Choose File" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать файл"
+          }
+        }
+      }
+    },
+    "Choose Folder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать папку"
+          }
+        }
+      }
+    },
+    "Choose Source…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать источник…"
+          }
+        }
+      }
+    },
+    "Choose what to record" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите, что записывать"
+          }
+        }
+      }
+    },
+    "Clear history" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить историю"
+          }
+        }
+      }
+    },
+    "Complete onboarding once. Then you can process files with full speaker diarization." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пройдите онбординг один раз — после этого можно будет обрабатывать файлы с диаризацией спикеров."
+          }
+        }
+      }
+    },
+    "Confirm matches or add new voices to your library." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подтвердите совпадения или добавьте новые голоса в библиотеку."
+          }
+        }
+      }
+    },
+    "Confirm matches or add new voices to your library. The transcript will be updated automatically." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подтвердите совпадения или добавьте новые голоса в библиотеку. Транскрипт обновится автоматически."
+          }
+        }
+      }
+    },
+    "Context (optional)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контекст (необязательно)"
+          }
+        }
+      }
+    },
+    "Context Analysis" : {
+
+    },
+    "Continue without diarization" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить без диаризации"
+          }
+        }
+      }
+    },
+    "Could not reach Hugging Face: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось связаться с Hugging Face: %@"
+          }
+        }
+      }
+    },
+    "Create new token" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать новый токен"
+          }
+        }
+      }
+    },
+    "Delete failed: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удаление не удалось: %@"
+          }
+        }
+      }
+    },
+    "Dependency Check" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка зависимостей"
+          }
+        }
+      }
+    },
+    "Diarization" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Диаризация"
+          }
+        }
+      }
+    },
+    "Dismiss" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        }
+      }
+    },
+    "Display %u — %lld×%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display %1$u — %2$lld×%3$lld"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дисплей %1$u — %2$lld×%3$lld"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        }
+      }
+    },
+    "Drop audio or video file here" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перетащите сюда аудио или видеофайл"
+          }
+        }
+      }
+    },
+    "Enable voice fingerprinting" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить распознавание голосов"
+          }
+        }
+      }
+    },
+    "Erase library" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить библиотеку"
+          }
+        }
+      }
+    },
+    "Existing voice:" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Существующий голос:"
+          }
+        }
+      }
+    },
+    "Failed" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка"
+          }
+        }
+      }
+    },
+    "File missing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Файл отсутствует"
+          }
+        }
+      }
+    },
+    "File: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Файл: %@"
+          }
+        }
+      }
+    },
+    "Finish" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        }
+      }
+    },
+    "Finished" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершено"
+          }
+        }
+      }
+    },
+    "First pass runs cold, then the app extracts mentioned names and recurring terms and re-runs Whisper with that context. Roughly doubles processing time." : {
+
+    },
+    "Fixed folder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фиксированная папка"
+          }
+        }
+      }
+    },
+    "Folder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Папка"
+          }
+        }
+      }
+    },
+    "Follow the steps and verify your token to unlock speaker diarization." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пройдите шаги и проверьте токен, чтобы разблокировать диаризацию спикеров."
+          }
+        }
+      }
+    },
+    "Free account. Diarization models are downloaded from there." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бесплатный аккаунт. Оттуда скачиваются модели диаризации."
+          }
+        }
+      }
+    },
+    "Frontmost window — %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активное окно — %@"
+          }
+        }
+      }
+    },
+    "Generate a Read-only token. We store it in macOS Keychain — never on disk in plain text." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создайте токен с правом «Read». Храним его в Keychain macOS, не в открытом виде."
+          }
+        }
+      }
+    },
+    "hf_..." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hf_…"
+          }
+        }
+      }
+    },
+    "hf_… token" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен hf_…"
+          }
+        }
+      }
+    },
+    "History" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "История"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главная"
+          }
+        }
+      }
+    },
+    "HuggingFace Token" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен HuggingFace"
+          }
+        }
+      }
+    },
+    "HuggingFace token is missing. Open Settings and add it." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не задан HuggingFace токен. Откройте настройки и добавьте его."
+          }
+        }
+      }
+    },
+    "Idle" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Простой"
+          }
+        }
+      }
+    },
+    "Install Managed Runtime" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установить managed runtime"
+          }
+        }
+      }
+    },
+    "Installing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установка"
+          }
+        }
+      }
+    },
+    "Installing managed runtime..." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установка managed runtime..."
+          }
+        }
+      }
+    },
+    "Interface" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Интерфейс"
+          }
+        }
+      }
+    },
+    "Interface language" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Язык интерфейса"
+          }
+        }
+      }
+    },
+    "Key terms: " : {
+
+    },
+    "Language" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Язык"
+          }
+        }
+      }
+    },
+    "Library" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Медиатека"
+          }
+        }
+      }
+    },
+    "Library is empty. Names will be added after the first meeting you confirm." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Библиотека пуста. Имена появятся после первой встречи, которую вы подтвердите."
+          }
+        }
+      }
+    },
+    "Loading…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузка…"
+          }
+        }
+      }
+    },
+    "Manage manually in System Settings → General → Login Items." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можно изменить вручную в Настройках → Основные → Объекты входа."
+          }
+        }
+      }
+    },
+    "Managed runtime installed. You can verify your token now." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed runtime установлен. Теперь можно проверить токен."
+          }
+        }
+      }
+    },
+    "Managed runtime ready: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed runtime готов: %@"
+          }
+        }
+      }
+    },
+    "Managed runtime will be prepared in Application Support and used for all Python calls." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed runtime будет подготовлен в Application Support и использован для всех Python-вызовов."
+          }
+        }
+      }
+    },
+    "Meeting topic, names, jargon..." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тема созвона, имена, термины…"
+          }
+        }
+      }
+    },
+    "Mentioned: " : {
+
+    },
+    "Mode: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим: %@"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя"
+          }
+        }
+      }
+    },
+    "Name speakers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назвать спикеров"
+          }
+        }
+      }
+    },
+    "Names of saved voices are added to the Whisper prompt before each run, so spellings of recurring participants stay consistent." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имена сохранённых голосов добавляются в промпт перед каждым прогоном, чтобы написание повторяющихся участников оставалось единообразным."
+          }
+        }
+      }
+    },
+    "Names will be added here after you confirm speakers from your first transcripts." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имена появятся здесь после того, как вы подтвердите спикеров в первых транскриптах."
+          }
+        }
+      }
+    },
+    "Needs attention" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Требует внимания"
+          }
+        }
+      }
+    },
+    "New name (e.g. Alex)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новое имя (например, Алекс)"
+          }
+        }
+      }
+    },
+    "Next to source file" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рядом с исходным файлом"
+          }
+        }
+      }
+    },
+    "No available runtime. Install managed runtime or provide python path." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет доступного runtime. Установите managed runtime или укажите путь к Python."
+          }
+        }
+      }
+    },
+    "No display available to record." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет доступного дисплея для записи."
+          }
+        }
+      }
+    },
+    "No displays or windows available" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет доступных дисплеев или окон"
+          }
+        }
+      }
+    },
+    "No folder selected" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Папка не выбрана"
+          }
+        }
+      }
+    },
+    "No history yet" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Истории пока нет"
+          }
+        }
+      }
+    },
+    "No Python runtime found. Install managed runtime or configure a custom Python path in Settings." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не найден Python runtime. Установите managed runtime или укажите путь к Python в настройках."
+          }
+        }
+      }
+    },
+    "No speakers left to name." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все спикеры названы."
+          }
+        }
+      }
+    },
+    "No voices yet" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Голосов пока нет"
+          }
+        }
+      }
+    },
+    "Noise Gate (silence background when quiet)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шумовой гейт (приглушать фон в тишине)"
+          }
+        }
+      }
+    },
+    "Not selected" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не выбран"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Onboarding" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онбординг"
+          }
+        }
+      }
+    },
+    "Onboarding is completed." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онбординг завершён."
+          }
+        }
+      }
+    },
+    "Onboarding will be shown at startup." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Онбординг будет показан при запуске."
+          }
+        }
+      }
+    },
+    "Open" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть"
+          }
+        }
+      }
+    },
+    "Open at login" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запускать при входе в систему"
+          }
+        }
+      }
+    },
+    "Open each model page and click “Access repository” / accept terms:" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откройте страницу каждой модели и нажмите “Access repository” / примите условия:"
+          }
+        }
+      }
+    },
+    "Open file" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть файл"
+          }
+        }
+      }
+    },
+    "Open File" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть файл"
+          }
+        }
+      }
+    },
+    "Open Hugging Face" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть Hugging Face"
+          }
+        }
+      }
+    },
+    "Open login / register page" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть страницу входа / регистрации"
+          }
+        }
+      }
+    },
+    "Open recordings folder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть папку с записями"
+          }
+        }
+      }
+    },
+    "Open Recordings Folder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть папку с записями"
+          }
+        }
+      }
+    },
+    "Open System Settings…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть Системные настройки…"
+          }
+        }
+      }
+    },
+    "Open token settings page" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть страницу настроек токенов"
+          }
+        }
+      }
+    },
+    "openXTranscriber" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "openXTranscriber"
+          }
+        }
+      }
+    },
+    "openXTranscriber needs microphone access to record a voice-over track. Enable it under Privacy & Security › Microphone, then click Record again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "openXTranscriber нужен доступ к микрофону для записи голосовой дорожки. Включите его в «Конфиденциальность и безопасность › Микрофон» и нажмите «Запись» снова."
+          }
+        }
+      }
+    },
+    "openXTranscriber needs Screen Recording access. Enable it under Privacy & Security › Screen Recording, then quit and reopen the app." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "openXTranscriber нужен доступ к записи экрана. Включите его в «Конфиденциальность и безопасность › Запись экрана», затем закройте и снова откройте приложение."
+          }
+        }
+      }
+    },
+    "Operation cancelled." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Операция отменена."
+          }
+        }
+      }
+    },
+    "Other displays" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Другие дисплеи"
+          }
+        }
+      }
+    },
+    "Output" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранение результата"
+          }
+        }
+      }
+    },
+    "Output: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вывод: %@"
+          }
+        }
+      }
+    },
+    "Paste HF token (hf_...)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вставьте HF токен (hf_...)"
+          }
+        }
+      }
+    },
+    "Permission required" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужно разрешение"
+          }
+        }
+      }
+    },
+    "Pick" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать"
+          }
+        }
+      }
+    },
+    "Play sample" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Воспроизвести"
+          }
+        }
+      }
+    },
+    "Possible participants: " : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможные участники: "
+          }
+        }
+      }
+    },
+    "Probable match — %@ of speech" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможное совпадение — %@ речи"
+          }
+        }
+      }
+    },
+    "Process Another" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обработать ещё файл"
+          }
+        }
+      }
+    },
+    "Processing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обработка"
+          }
+        }
+      }
+    },
+    "Processing completed" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обработка завершена"
+          }
+        }
+      }
+    },
+    "Python path" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Путь к Python"
+          }
+        }
+      }
+    },
+    "Quit openXTranscriber" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выйти из openXTranscriber"
+          }
+        }
+      }
+    },
+    "Readiness check failed: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка готовности не удалась: %@"
+          }
+        }
+      }
+    },
+    "Readiness has not been checked yet." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готовность ещё не проверена."
+          }
+        }
+      }
+    },
+    "Readiness: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готовность: %@"
+          }
+        }
+      }
+    },
+    "Ready" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готов"
+          }
+        }
+      }
+    },
+    "Recheck" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить ещё раз"
+          }
+        }
+      }
+    },
+    "Record" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запись"
+          }
+        }
+      }
+    },
+    "Record Frontmost Window — %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Записать активное окно — %@"
+          }
+        }
+      }
+    },
+    "Record Main Display (%lld×%lld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Record Main Display (%1$lld×%2$lld)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Записать основной дисплей (%1$lld×%2$lld)"
+          }
+        }
+      }
+    },
+    "Recording error" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка записи"
+          }
+        }
+      }
+    },
+    "Recording finished" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запись завершена"
+          }
+        }
+      }
+    },
+    "Recording Settings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки записи"
+          }
+        }
+      }
+    },
+    "Refresh" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить"
+          }
+        }
+      }
+    },
+    "Refresh sources" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить источники"
+          }
+        }
+      }
+    },
+    "Refresh Sources" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить источники"
+          }
+        }
+      }
+    },
+    "Reinstall Runtime" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переустановить runtime"
+          }
+        }
+      }
+    },
+    "Reload" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезагрузить"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переименовать"
+          }
+        }
+      }
+    },
+    "Rename failed: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переименование не удалось: %@"
+          }
+        }
+      }
+    },
+    "Reset to ~/Movies/openXTranscriber" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить на ~/Movies/openXTranscriber"
+          }
+        }
+      }
+    },
+    "Restart the app to apply the interface language change." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезапустите приложение, чтобы применить смену языка интерфейса."
+          }
+        }
+      }
+    },
+    "Result" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Результат"
+          }
+        }
+      }
+    },
+    "Result Generation" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Формирование результата"
+          }
+        }
+      }
+    },
+    "Reveal in Finder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать в Finder"
+          }
+        }
+      }
+    },
+    "Runtime" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runtime"
+          }
+        }
+      }
+    },
+    "Runtime available: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runtime доступен: %@"
+          }
+        }
+      }
+    },
+    "Runtime has not been checked yet." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runtime ещё не проверен."
+          }
+        }
+      }
+    },
+    "Runtime install failed: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установка runtime не удалась: %@"
+          }
+        }
+      }
+    },
+    "Runtime status unknown." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Состояние runtime неизвестно."
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
+        }
+      }
+    },
+    "Save failed: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранение не удалось: %@"
+          }
+        }
+      }
+    },
+    "Save mode" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим сохранения"
+          }
+        }
+      }
+    },
+    "Save Token" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить токен"
+          }
+        }
+      }
+    },
+    "Saved" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранено"
+          }
+        }
+      }
+    },
+    "Saved blocks: %lld" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранено блоков: %lld"
+          }
+        }
+      }
+    },
+    "Saving Result" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранение результата"
+          }
+        }
+      }
+    },
+    "Screen Recording permission is required. Grant it in System Settings, then try again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужно разрешение на запись экрана. Выдайте его в Системных настройках и повторите."
+          }
+        }
+      }
+    },
+    "Screen Recording permission required" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужно разрешение на запись экрана"
+          }
+        }
+      }
+    },
+    "Screen Recording required" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужна запись экрана"
+          }
+        }
+      }
+    },
+    "Script %@ is missing. Please ensure it exists in Scripts." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрипт %@ не найден. Убедитесь, что он есть в папке Scripts."
+          }
+        }
+      }
+    },
+    "Script %@ returned invalid data." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрипт %@ вернул некорректные данные."
+          }
+        }
+      }
+    },
+    "Select" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать"
+          }
+        }
+      }
+    },
+    "Select Python executable" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите исполняемый файл Python"
+          }
+        }
+      }
+    },
+    "Selected interpreter: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбранный интерпретатор: %@"
+          }
+        }
+      }
+    },
+    "Selected: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрано: %@"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        }
+      }
+    },
+    "Show details" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать детали"
+          }
+        }
+      }
+    },
+    "Show in Finder" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать в Finder"
+          }
+        }
+      }
+    },
+    "Show onboarding again" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать онбординг снова"
+          }
+        }
+      }
+    },
+    "Show openXTranscriber" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать openXTranscriber"
+          }
+        }
+      }
+    },
+    "Sign in to Hugging Face" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Войдите в Hugging Face"
+          }
+        }
+      }
+    },
+    "Signed in" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вход выполнен"
+          }
+        }
+      }
+    },
+    "Skip" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить"
+          }
+        }
+      }
+    },
+    "Skip remaining" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить остальные"
+          }
+        }
+      }
+    },
+    "Stage: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Этап: %@"
+          }
+        }
+      }
+    },
+    "Start Processing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать обработку"
+          }
+        }
+      }
+    },
+    "Startup" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автозапуск"
+          }
+        }
+      }
+    },
+    "State: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Состояние: %@"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Состояние"
+          }
+        }
+      }
+    },
+    "Step 1. Create or sign in to Hugging Face" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шаг 1. Создайте аккаунт или войдите в Hugging Face"
+          }
+        }
+      }
+    },
+    "Step 2. Accept required model agreements" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шаг 2. Примите соглашения для нужных моделей"
+          }
+        }
+      }
+    },
+    "Step 3. Create and paste an access token" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шаг 3. Создайте и вставьте access token"
+          }
+        }
+      }
+    },
+    "Stop" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановить"
+          }
+        }
+      }
+    },
+    "Stop · %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановить · %@"
+          }
+        }
+      }
+    },
+    "Stop recording" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановить запись"
+          }
+        }
+      }
+    },
+    "Stop Recording" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановить запись"
+          }
+        }
+      }
+    },
+    "Suggest-only threshold" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порог предложения"
+          }
+        }
+      }
+    },
+    "Suggested match: %@ (cosine %@)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможное совпадение: %@ (косинус %@)"
+          }
+        }
+      }
+    },
+    "Supported: webm, mov, mp4, m4a, wav, mp3, ogg, flac, mkv, aac" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддерживается: webm, mov, mp4, m4a, wav, mp3, ogg, flac, mkv, aac"
+          }
+        }
+      }
+    },
+    "System" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Системный"
+          }
+        }
+      }
+    },
+    "The capture source ended. The partial recording was saved." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источник захвата прекратил работу. Частичная запись сохранена."
+          }
+        }
+      }
+    },
+    "This screen — Display %u (%lld×%lld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This screen — Display %1$u (%2$lld×%3$lld)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Этот экран — дисплей %1$u (%2$lld×%3$lld)"
+          }
+        }
+      }
+    },
+    "Three pyannote models. Each needs a one-time agreement on Hugging Face. Click \"Open\" → press the green \"Agree and access repository\" button → come back here." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Три модели pyannote. Для каждой нужно один раз принять соглашение на Hugging Face. Нажмите «Открыть» → на странице нажмите зелёную кнопку «Agree and access repository» → возвращайтесь."
+          }
+        }
+      }
+    },
+    "Token" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен"
+          }
+        }
+      }
+    },
+    "Token is empty. Paste your Hugging Face token first." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен пуст. Сначала вставьте свой Hugging Face токен."
+          }
+        }
+      }
+    },
+    "Token rejected. Make sure you copied the full string." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен не принят. Проверьте, что скопировали его целиком."
+          }
+        }
+      }
+    },
+    "Token verified" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен проверен"
+          }
+        }
+      }
+    },
+    "Token verified. Onboarding complete." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токен проверен. Онбординг завершён."
+          }
+        }
+      }
+    },
+    "Transcribe with diarization" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Транскрибировать с диаризацией"
+          }
+        }
+      }
+    },
+    "Transcription" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Транскрипция"
+          }
+        }
+      }
+    },
+    "Transcription (pass 1)" : {
+
+    },
+    "Transcription (pass 2)" : {
+
+    },
+    "Transcription + diarization" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Транскрипция + диаризация"
+          }
+        }
+      }
+    },
+    "Transcription language" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Язык транскрипции"
+          }
+        }
+      }
+    },
+    "Transcription only" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только транскрипция"
+          }
+        }
+      }
+    },
+    "Two-pass transcription" : {
+
+    },
+    "Unknown access error." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неизвестная ошибка доступа."
+          }
+        }
+      }
+    },
+    "Unknown speaker — %@ of speech" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неизвестный спикер — %@ речи"
+          }
+        }
+      }
+    },
+    "Unsupported input file format." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неподдерживаемый формат входного файла."
+          }
+        }
+      }
+    },
+    "Untitled" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без названия"
+          }
+        }
+      }
+    },
+    "Use" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Применить"
+          }
+        }
+      }
+    },
+    "Verification failed: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка не удалась: %@"
+          }
+        }
+      }
+    },
+    "Verify" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить"
+          }
+        }
+      }
+    },
+    "Verify Token and Finish" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить токен и завершить"
+          }
+        }
+      }
+    },
+    "Verifying token and model access..." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка токена и доступа к моделям..."
+          }
+        }
+      }
+    },
+    "Verifying…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверяем…"
+          }
+        }
+      }
+    },
+    "Voice Library" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Библиотека голосов"
+          }
+        }
+      }
+    },
+    "Voice Matching" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сопоставление голосов"
+          }
+        }
+      }
+    },
+    "Voices" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Голоса"
+          }
+        }
+      }
+    },
+    "Welcome to openXTranscriber" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добро пожаловать в openXTranscriber"
+          }
+        }
+      }
+    },
+    "Whisper model" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Модель Whisper"
+          }
+        }
+      }
+    },
+    "Window" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Окно"
+          }
+        }
+      }
+    },
+    "Your processed transcripts will appear here, sorted by date." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Здесь будут появляться обработанные транскрипты, отсортированные по дате."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
