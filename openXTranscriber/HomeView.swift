@@ -152,6 +152,14 @@ struct HomeView: View {
                 .lineLimit(1)
                 .truncationMode(.middle)
             Spacer()
+            Toggle(isOn: $viewModel.diarizationEnabled) {
+                Text("Diarization")
+                    .font(.callout)
+            }
+            .toggleStyle(.switch)
+            .controlSize(.mini)
+            .help("Identify and separate speakers. Turn off for transcription only.")
+            .disabled(viewModel.isProcessing || viewModel.isPreparingRuntime)
             Button("Start Processing") {
                 viewModel.processSelectedFile()
             }

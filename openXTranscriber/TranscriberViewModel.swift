@@ -32,6 +32,7 @@ final class TranscriberViewModel: ObservableObject {
     @AppStorage("voiceSuggestThreshold") private var voiceSuggestThreshold: Double = 0.65
     @AppStorage("transcriptionPrompt") var transcriptionPrompt = ""
     @AppStorage("twoPassTranscriptionEnabled") var twoPassTranscriptionEnabled = true
+    @AppStorage("diarizationEnabled") var diarizationEnabled = true
 
     private let audioExtractor: AudioExtracting
     private let whisperService: WhisperServicing
@@ -159,12 +160,20 @@ final class TranscriberViewModel: ObservableObject {
                         }
                     }
                 )
-                self.processingMode = readiness.recommendedMode
                 self.readinessStatusMessage = readiness.userMessage
                 self.appendLog("Readiness: \(readiness.userMessage)")
-                if readiness.recommendedMode == .transcriptionOnly {
-                    self.appendLog("Beginner mode enabled: running transcription without speaker diarization.")
+
+                let effectiveMode: ProcessingMode
+                if !self.diarizationEnabled {
+                    effectiveMode = .transcriptionOnly
+                    self.appendLog("Diarization disabled by user: running transcription only.")
+                } else {
+                    effectiveMode = readiness.recommendedMode
+                    if readiness.recommendedMode == .transcriptionOnly {
+                        self.appendLog("Beginner mode enabled: running transcription without speaker diarization.")
+                    }
                 }
+                self.processingMode = effectiveMode
                 try self.ensureNotCancelled()
 
                 self.stage = .audioExtraction
@@ -193,7 +202,7 @@ final class TranscriberViewModel: ObservableObject {
                 var pendingSuggestions: [SpeakerMatch] = []
                 var nameMapping: [String: String] = [:]
                 var embeddingsBySpeaker: [String: SpeakerEmbedding] = [:]
-                if readiness.recommendedMode == .fullPipeline {
+                if effectiveMode == .fullPipeline {
                     self.stage = .diarization
                     let diarizationStartedAt = Date()
                     let diarizationHeartbeatTask = Task { [weak self] in
